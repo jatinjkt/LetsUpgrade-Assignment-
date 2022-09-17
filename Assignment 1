@@ -1,0 +1,9 @@
+row = int(input("Input number of rows: "))
+col = int(input("Input number of columns: "))
+arr = [[0 for col in range(col)]for row in range(row)]
+
+for m in range(row):
+    for n in range(col):
+        arr[m][n] = m*n
+
+print(arr)
